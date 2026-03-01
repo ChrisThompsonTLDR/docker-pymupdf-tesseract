@@ -26,5 +26,3 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/christhompsontldr/docker-pymupdf-tesseract:latest
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
